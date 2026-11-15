@@ -1,0 +1,12 @@
+[project]
+name = "patchcord"
+version = "0.1.0"
+description = "Build tools for patchcord"
+requires-python = ">=3.14"
+dependencies = [
+    "cmake==3.31.10",
+    "ninja==1.13.2",
+]
+
+[tool.uv]
+package = false
